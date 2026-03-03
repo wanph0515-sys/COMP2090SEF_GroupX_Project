@@ -8,7 +8,6 @@ class Book:
         self.is_borrowed = False    # Borrow Status
 
     def __str__(self):
-        # 这里的字符串内容已经全改为英文
         return f"[{self.book_id}] {self.title} - {self.author} (Status: {'Borrowed' if self.is_borrowed else 'Available'})"
 
 class User:
