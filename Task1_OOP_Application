@@ -53,7 +53,6 @@ class Library:
 
     def borrow_book(self, user_id: str, book_id: str):
         """Core Logic: Book Borrow Process"""
-        # 1. Check if user and book exist
         if user_id not in self.users:
             return False, "Error: User not found"
         if book_id not in self.books:
@@ -62,11 +61,9 @@ class Library:
         user = self.users[user_id]
         book = self.books[book_id]
 
-        # 2. Check availability
         if book.is_borrowed:
             return False, "Failed: Book is already borrowed"
         
-        # 3. Perform borrow
         user.borrow_book(book)
         return True, f"Success! '{book.title}' has been lent to {user.name}"
 
@@ -100,7 +97,6 @@ def main():
     """Library Management System - Main Framework"""
     lib = Library()
 
-    # 1. Initialize sample data
     print("=== Initializing Library Data ===")
     lib.add_book(Book("B001", "Python Crash Course", "Eric Matthes"))
     lib.add_book(Book("B002", "Data Structures & Algorithms in Python", "Michael T. Goodrich"))
@@ -109,10 +105,8 @@ def main():
     lib.register_user(User("U002", "Xiaohong"))
     print("Data initialization completed!\n")
 
-    # 2. Return the library instance for member A to develop interaction
     return lib
 
 
-# Run the system
 if __name__ == "__main__":
     library_system = main()
