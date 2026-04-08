@@ -5,13 +5,11 @@
 
 ## How to Run
 1. Ensure Python 3.8+ is installed.
-2. Save the code as `task2.py` in the `Task2` folder.
+2. Place the code file as `Task2.py` in the `Task2` folder.
 3. Open terminal in the `Task2` folder.
 4. Run the command:
-python task2.py
-5. The program will demonstrate:
-- Graph construction, adjacency display, and DFS traversal.
-- Heap sort on integers and on a list of objects (by key).
+python Task2.py
+5. The program will demonstrate graph construction, DFS, and heap sort.
 
 ## Demo Video
 [Watch 5-minute introduction video](https://youtu.be/your_video_id)
