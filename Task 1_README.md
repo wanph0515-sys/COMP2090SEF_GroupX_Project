@@ -5,11 +5,13 @@
 
 
 ## How to Run
-1. Make sure Python 3.8+ is installed.
-2. Open terminal in the `Task1` folder.
-3. Run the command:
-     python main.py
- 
+1. Ensure Python 3.8+ is installed.
+2. Open terminal in the `Task1` folder (where `main.py` is located).
+3. Run the following command:
+python main.py
+text
+
+4. Follow the on-screen menu to interact with the system.
 
 ## Demo Video
-4.[Watch video](https://youtu.com/your-link)
+[Watch 5-minute introduction video](https://youtu.com/your-video-link)
