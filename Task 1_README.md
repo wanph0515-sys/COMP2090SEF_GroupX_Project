@@ -9,7 +9,6 @@
 2. Open terminal in the `Task1` folder (where `main.py` is located).
 3. Run the following command:
 python main.py
-text
 
 4. Follow the on-screen menu to interact with the system.
 
