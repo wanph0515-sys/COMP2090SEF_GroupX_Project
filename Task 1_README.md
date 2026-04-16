@@ -13,4 +13,4 @@ python main.py
 4. Follow the on-screen menu to interact with the system.
 
 ## Demo Video
-[Watch 5-minute introduction video](https://youtu.com/your-video-link)
+https://www.youtube.com/watch?v=pzjMiybJd-I
